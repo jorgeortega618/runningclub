@@ -1,0 +1,152 @@
+/* Reset and Global Styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #8e44ad);
+    color: #ffffff;
+  }
+  
+  /* NAVBAR STYLES */
+  .navbar {
+    background: rgba(44, 62, 80, 0.7); /* Dark semi-transparent navbar */
+    padding: 0.8rem 1rem;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #f39c12;
+  }
+  
+  /* HEADER VIDEO */
+  .video-header {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  .video-header__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .video-header__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(44, 62, 80, 0.6); /* Dark overlay for contrast */
+    z-index: 2;
+  }
+  
+  /* HEADER CONTENT */
+  .header-content {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .club-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+    /* CTA Button */
+    .cta-button {
+        font-size: 1.2rem;
+        padding: 0.75rem 2rem; /* Adjust button padding */
+        width: auto; /* Ensures it doesn't stretch */
+        max-width: 150px; /* Restricts button width */
+        background-color: #2980b9;
+        border: none;
+        transition: background 0.3s ease-in-out;
+        display: inline-block; /* Prevents full-width stretch */
+        text-align: center;
+    }
+    
+    .cta-button:hover {
+        background-color: #3498db;
+        text-decoration: none;
+    }
+    
+
+
+  /* Section Titles */
+.section-title {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  /* Section Text */
+.section-text {
+    font-size: 1rem;
+    color: #ffffff;
+    max-width: 45em;
+    margin: 0 auto 2em;
+    text-align: center;
+  }
+
+
+  /* GALLERY IMAGE HOVER EFFECT */
+  .gallery-image {
+    width: 100%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .gallery-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Calendar (Events Table) */
+.event-calendar th, .event-calendar td {
+    vertical-align: middle !important;
+    text-align: center;
+    padding: 1em 0.5em;
+    color: #fff;
+  }
+  
+  .event-calendar thead {
+    background-color: #1f1f2e;
+  }
+  
+  /* Footer */
+  .footer-section {
+    background-color: rgba(44, 62, 80, 0.95);
+  }
+  
+  /* MEDIA QUERIES */
+  @media (max-width: 768px) {
+    .club-title {
+      font-size: 2rem;
+    }
+    .cta-button {
+      font-size: 1rem;
+      padding: 0.5rem 1.5rem;
+    }
+  }
+  

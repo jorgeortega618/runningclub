@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fast Lane Runners</title>
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR (Club Name & Navigation) -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand club-name" href="#">Fast Lane Runners</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#photos">Gallery</a></li>
+          <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER SECTION WITH VIDEO -->
+  <header class="video-header">
+    <video autoplay muted loop playsinline class="video-header__background">
+      <source src="assets/video1.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="video-header__overlay"></div>
+    <div class="container header-content text-center">
+      <h1 class="club-title">Welcome to Fast Lane Runners</h1>
+      <p>Your gateway to a healthier, faster lifestyle!</p>
+      <a href="#events" class="btn btn-primary cta-button">Join Our Events</a>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="section-title">About Fast Lane Runners</h2>
+      <p class="section-text">
+        Welcome to Fast Lane Runners, where we believe in running towards a
+        healthier lifestyle! Whether you’re a seasoned marathoner or a casual
+        jogger, our club provides the perfect environment to train, socialize, and
+        push yourself to new personal bests.
+      </p>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="photos" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="section-title">Gallery</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-4 mb-3">
+          <img src="assets/photo1.jpg" alt="Running Club Photo 1" class="img-fluid gallery-image" />
+        </div>
+        <div class="col-sm-6 col-md-4 mb-3">
+          <img src="assets/photo2.jpg" alt="Running Club Photo 2" class="img-fluid gallery-image" />
+        </div>
+        <div class="col-sm-6 col-md-4 mb-3">
+          <img src="assets/photo3.jpg" alt="Running Club Photo 3" class="img-fluid gallery-image" />
+        </div>
+        <div class="col-sm-6 col-md-4 mb-3">
+        <img src="assets/photo4.jpg" alt="Running Club Photo 3" class="img-fluid gallery-image" />
+        </div>
+        <div class="col-sm-6 col-md-4 mb-3">
+        <img src="assets/photo5.jpg" alt="Running Club Photo 3" class="img-fluid gallery-image" />
+        </div>
+        <div class="col-sm-6 col-md-4 mb-3">
+        <img src="assets/photo6.jpg" alt="Running Club Photo 3" class="img-fluid gallery-image" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EVENTS SECTION (CALENDAR) -->
+  <section id="events" class="py-5">
+    <div class="container">
+      <h2 class="section-title mb-4">Upcoming Events</h2>
+      <!-- Simple table-based calendar -->
+      <div class="table-responsive">
+        <table class="table table-bordered event-calendar">
+          <thead class="thead-dark">
+            <tr>
+              <th>Date</th>
+              <th>Event</th>
+              <th>Location</th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mar 15</td>
+              <td>Sunday 5K Fun Run</td>
+              <td>Central Park</td>
+              <td>Group run + post-run refreshments</td>
+            </tr>
+            <tr>
+              <td>Apr 10</td>
+              <td>Trail Adventure</td>
+              <td>Green Mountain Trails</td>
+              <td>Carpool available, bring water and snacks</td>
+            </tr>
+            <tr>
+              <td>May 5</td>
+              <td>Half-Marathon Training</td>
+              <td>City Track</td>
+              <td>Weekly meets, progressive distance build-up</td>
+            </tr>
+            <tr>
+              <td>Jun 1</td>
+              <td>Charity 10K Race</td>
+              <td>Riverfront</td>
+              <td>Fundraiser for local community center</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <footer id="contact" class="py-4 footer-section">
+    <div class="container text-center text-white">
+      <p class="mb-2">Contact Us: <strong>info@fastlanerunners.com</strong></p>
+      <p>&copy; 2025 Fast Lane Runners. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (Optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
