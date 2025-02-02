@@ -74,22 +74,16 @@ html, body {
   
     /* CTA Button */
     .cta-button {
-        font-size: 1.2rem;
-        padding: 0.75rem 2rem; /* Adjust button padding */
-        width: auto; /* Ensures it doesn't stretch */
-        max-width: 150px; /* Restricts button width */
-        background-color: #2980b9;
-        border: none;
-        transition: background 0.3s ease-in-out;
-        display: inline-block; /* Prevents full-width stretch */
-        text-align: center;
+      font-size: 1.2rem;
+      padding: 0.75rem 2rem;
+      background-color: #3498db;
+      border: none;
+      transition: background 0.3s ease;
     }
     
     .cta-button:hover {
-        background-color: #3498db;
-        text-decoration: none;
+      background-color: #2980b9;
     }
-    
 
 
   /* Section Titles */
