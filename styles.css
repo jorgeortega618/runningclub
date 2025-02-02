@@ -29,6 +29,12 @@ html, body {
     color: #f39c12;
   }
   
+  .navbar-toggler {
+    border: none;
+    color: lightgray;
+    background-color: lightgray;
+    opacity: 0.5;
+  }
   /* HEADER VIDEO */
   .video-header {
     position: relative;
